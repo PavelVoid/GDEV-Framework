@@ -33,4 +33,6 @@ local function LoadDir(path)
     end
 end
 
-LoadDir("gdev")
+if CLIENT then
+    LoadDir("gdev")
+end
